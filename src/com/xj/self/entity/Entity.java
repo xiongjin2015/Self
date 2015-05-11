@@ -6,6 +6,7 @@ import android.os.Parcelable;
 
 /** 
  *  实现Parcelable接口
+ *  @author xiongjin
  */
 public class Entity implements Parcelable {
 	
