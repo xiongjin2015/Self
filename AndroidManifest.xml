@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.xj.self"
+    package="com.haha.self"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.ParcelTestActivity"
+            android:name="com.xj.self.activity.ParcelTestActivity"
             android:label="ParcelableTest" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,7 +36,7 @@
                 android:value="0002" />
         </activity>
         <activity
-            android:name=".activity.StartGooglePlayTestActivity"
+            android:name="com.xj.self.activity.StartGooglePlayTestActivity"
             android:label="StartGooglePlayTest" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,8 +48,8 @@
                 android:name="sid"
                 android:value="0002" />
         </activity>
-        <activity android:name=".activity.ParcelResultActivity" />
-        <activity android:name=".activity.SimulateStartGooglePlayActivity" >
+        <activity android:name="com.xj.self.activity.ParcelResultActivity" />
+        <activity android:name="com.xj.self.activity.SimulateStartGooglePlayActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -57,6 +57,7 @@
                 <data android:scheme="market" />
             </intent-filter>
         </activity>
+        <activity android:name="com.xj.self.activity.TestActivity" />
     </application>
 
 </manifest>

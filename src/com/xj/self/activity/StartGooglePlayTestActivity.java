@@ -10,8 +10,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.xj.self.R;
-import com.xj.self.entity.Entity;
+import com.haha.self.R;
 
 public class StartGooglePlayTestActivity extends ActionBarActivity {
 	
@@ -29,10 +28,10 @@ public class StartGooglePlayTestActivity extends ActionBarActivity {
 	
 	
 	public void onClick(View v){
-		if(TextUtils.isEmpty(mPkgNameEditTxt.getText())){
+/*		if(TextUtils.isEmpty(mPkgNameEditTxt.getText())){
 			Toast.makeText(this, "please input app package name,pkg name is not null", Toast.LENGTH_LONG).show();
 			return;
-		}	
+		}*/	
 		//market://details?id=com.teamlava.restaurantstory&referrer=
 		String url ="market://details?id="+mPkgNameEditTxt.getText();
 		Log.i("XJ", "url:"+url);
@@ -46,6 +45,7 @@ public class StartGooglePlayTestActivity extends ActionBarActivity {
             // no play crash
             //startBrowser(data, url);
         }
+		
 	}
 	
 	
