@@ -26,5 +26,4 @@ proguard/
 # Log Files
 *.log
 .DS_Store
-.git
 .gitignore
