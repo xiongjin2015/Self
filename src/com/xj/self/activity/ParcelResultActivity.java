@@ -1,5 +1,7 @@
 package com.xj.self.activity;
 
+import org.json.JSONException;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -17,7 +19,13 @@ public class ParcelResultActivity extends ActionBarActivity {
 		Intent intent = getIntent();
 		Entity entity = (Entity)intent.getParcelableExtra("Parcel");
 		TextView tv = new TextView(this);
-		tv.setText("entity [id="+entity.getId()+",name="+entity.getName()+"]");
+		//tv.setText("entity [id="+entity.getId()+",name="+entity.getName()+"]");
+		try {
+            tv.setText(entity.toJson().toString());
+        } catch (JSONException e) {
+            tv.setText("entity [id="+entity.getId()+",name="+entity.getName()+"]");
+            e.printStackTrace();
+        }
 		setContentView(tv);
 		//Single.getInstance(this);
 	}
