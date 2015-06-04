@@ -68,16 +68,6 @@
                 <category android:name="XJ.Self" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.xj.self.activity.DependLibTestActivity"
-            android:label="DependLibTest" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="XJ.Self" />
-            </intent-filter>
-        </activity>
-        <activity android:name="com.xj.self.activity.DependLibActivity"/>
     </application>
     
 
