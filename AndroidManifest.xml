@@ -52,12 +52,33 @@
         <activity android:name="com.xj.self.activity.SimulateStartGooglePlayActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
+
                 <data android:scheme="market" />
             </intent-filter>
         </activity>
-        <activity android:name="com.xj.self.activity.TestActivity" />
+        <activity
+            android:name="com.xj.self.activity.GCTestActivity"
+            android:label="GCTest" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Self" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xj.self.activity.DependLibTestActivity"
+            android:label="DependLibTest" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Self" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xj.self.activity.DependLibActivity"/>
     </application>
+    
 
 </manifest>

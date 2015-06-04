@@ -7,7 +7,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.widget.TextView;
 
-public class TestActivity extends ActionBarActivity {
+public class GCTestActivity extends ActionBarActivity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
