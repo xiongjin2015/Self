@@ -6,6 +6,7 @@ import org.json.JSONObject;
 
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.util.Log;
 
 /**
  * 实现Parcelable接口
@@ -40,6 +41,7 @@ public class Entity implements Parcelable {
     }
 
     public void setName(String name) {
+        Log.i("XJ","set name:"+name);
         this.name = name;
     }
 
@@ -52,6 +54,7 @@ public class Entity implements Parcelable {
     // 将对象数据写入到Parcel对象中，如intent.putExtra("Parcel", entity)将调用;
     @Override
     public void writeToParcel(Parcel dest, int flags) {
+        Log.i("XJ","start write to Parcel");
         dest.writeInt(id);
         dest.writeString(name);
 
