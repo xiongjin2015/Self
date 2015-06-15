@@ -68,7 +68,15 @@
                 <category android:name="XJ.Self" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.xj.self.activity.HandlerActivity"
+            android:label="Handler Test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Self" />
+            </intent-filter>
+        </activity>
     </application>
-    
 
 </manifest>
