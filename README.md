@@ -9,3 +9,4 @@ $ git push origin master
 
 ##this project is a knowledge library/repository of android for self
 ##find need-self tool or class for solving some android problem quickly!
+##a android study  project

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xj="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.xj.self.view.TitleView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding = "10dp"
+        xj:titleText = "文本test"
+        xj:titleTextColor = "#ff0000"
+        xj:titleTextSize = "29sp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

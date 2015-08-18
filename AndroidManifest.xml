@@ -97,6 +97,15 @@
                 <category android:name="XJ.Self" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.xj.self.activity.CustomViewActivity"
+            android:label="Custom View Test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Self" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
