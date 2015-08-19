@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 自定义属性和样式：定义了字体文本、字体颜色、字体大小；format是该值的取值类型-->
+<!-- 自定义属性和样式：定义了字体文本、字体颜色、字体大小；format是该值的取值类型 -->
 <!-- format可选值有：string、color、demension、integer、enum、reference、float、boolean、fraction和flag -->
 <resources>
 
     <attr name="titleText" format="string" />
     <attr name="titleTextColor" format="color" />
     <attr name="titleTextSize" format="dimension" />
+    <attr name="image" format="reference" />
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0" />
+        <enum name="center" value="1" />
+    </attr>
 
     <declare-styleable name="CustomTitleView">
         <attr name="titleText" />
         <attr name="titleTextColor" />
         <attr name="titleTextSize" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="titleText" />
+        <attr name="titleTextColor" />
+        <attr name="titleTextSize" />
+        <attr name="image" />
+        <attr name="imageScaleType" />
     </declare-styleable>
 
 </resources>

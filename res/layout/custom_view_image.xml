@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xj="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 字体的宽度大于图片，且View宽度设置为wrap_content -->
+    <com.xj.self.view.ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        xj:image="@drawable/ic_launcher"
+        xj:imageScaleType="center"
+        xj:titleText="Hello World!"
+        xj:titleTextColor="#ff0000"
+        xj:titleTextSize="29sp" />
+
+    <!-- View的宽度设置为精确值，字体的长度大于此宽度 -->
+    <com.xj.self.view.ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        xj:image="@drawable/ic_launcher"
+        xj:imageScaleType="center"
+        xj:titleText="Hello World Welcome!"
+        xj:titleTextColor="#00ff00"
+        xj:titleTextSize="19sp" />
+
+    <!-- 图片的宽度大于字体，且View宽度设置为wrap_content -->
+    <com.xj.self.view.ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        xj:image="@drawable/icon"
+        xj:imageScaleType="center"
+        xj:titleText="妹纸~"
+        xj:titleTextColor="#ff0000"
+        xj:titleTextSize="12sp" />
+
+</LinearLayout>
