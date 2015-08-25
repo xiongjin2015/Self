@@ -107,12 +107,30 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.xj.self.activity.QQListViewActivity"
-            android:label="QQ ListView View Test" >
+            android:name="com.xj.self.activity.LmjMainActivity"
+            android:label="Lmj Main View Test" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="XJ.Self" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xj.self.activity.lmj.QQListViewActivity"
+            android:label="QQ ListView View Test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Lmj" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xj.self.activity.lmj.MetroImageActivity"
+            android:label="Metro Image View Test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Lmj" />
             </intent-filter>
         </activity>
     </application>

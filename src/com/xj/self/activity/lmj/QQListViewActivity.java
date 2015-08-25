@@ -1,4 +1,4 @@
-package com.xj.self.activity;
+package com.xj.self.activity.lmj;
 
 import java.util.ArrayList;
 import java.util.Arrays;
