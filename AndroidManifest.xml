@@ -133,6 +133,15 @@
                 <category android:name="XJ.Lmj" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.xj.self.activity.lmj.CustomProgressActivity"
+            android:label="Custom Progress View Test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Lmj" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
