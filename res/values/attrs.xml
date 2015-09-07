@@ -37,4 +37,17 @@
         <attr name="speed" />
     </declare-styleable>
 
+    <attr name="dotCount" format="integer" />
+    <attr name="splitSize" format="integer" />
+    <attr name="bg" format="reference" />
+
+    <declare-styleable name="CustomVolumControllBar">
+        <attr name="firstColor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="dotCount" />
+        <attr name="splitSize" />
+        <attr name="bg" />
+    </declare-styleable>
+
 </resources>
