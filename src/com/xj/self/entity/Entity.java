@@ -84,8 +84,8 @@ public class Entity implements Parcelable {
         return json;
     }
 
-    public static void main(String[] args) throws JSONException {
-        Entity entity = new Entity(1, "zhangsan");
-        System.out.println("json string is:" + entity.toJson().toString());
-    }
+//    public static void main(String[] args) throws JSONException {
+//        Entity entity = new Entity(1, "zhangsan");
+//        System.out.println("json string is:" + entity.toJson().toString());
+//    }
 }

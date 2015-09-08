@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 
-import com.haha.self.R;
+import com.xj.self.R;
 import com.xj.self.entity.Entity;
 
 public class ParcelTestActivity extends ActionBarActivity {

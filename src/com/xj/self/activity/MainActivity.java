@@ -8,8 +8,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.haha.self.R;
-
 import android.app.ListActivity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -20,6 +18,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+
+import com.xj.self.R;
 
 public class MainActivity extends ListActivity {
 	public static final String CATEGORY_XJ_SELF = "XJ.Self";

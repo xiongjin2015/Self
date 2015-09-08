@@ -11,7 +11,7 @@ import android.view.View.OnClickListener;
 import android.view.WindowManager;
 import android.view.WindowManager.LayoutParams;
 
-import com.haha.self.R;
+import com.xj.self.R;
 import com.xj.self.widget.LoadingDialog;
 
 /**

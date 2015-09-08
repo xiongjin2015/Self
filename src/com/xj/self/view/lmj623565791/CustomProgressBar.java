@@ -11,7 +11,7 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
 
-import com.haha.self.R;
+import com.xj.self.R;
 
 /**
  * 实现一个自定义的圆环交替的progressbar；步骤： 1.自定义view的属性 2.在View的构造方法中获得自定义的属性 [3、重写onMeasure] 4.重写onDraw

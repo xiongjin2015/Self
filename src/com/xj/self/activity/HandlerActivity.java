@@ -9,7 +9,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
 
-import com.haha.self.R;
+import com.xj.self.R;
 
 /**
  * handler study

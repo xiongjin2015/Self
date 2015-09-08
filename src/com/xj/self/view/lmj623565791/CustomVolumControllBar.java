@@ -14,7 +14,7 @@ import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.haha.self.R;
+import com.xj.self.R;
 
 /**
  * 根据需求图，两个小块的颜色、一张中间的图片、间隙大小、一个多少个块块。

@@ -16,7 +16,8 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
-import com.haha.self.R;
+
+import com.xj.self.R;
 
 public class ImageView extends View {
 

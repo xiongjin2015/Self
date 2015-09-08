@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.haha.self.R;
+import com.xj.self.R;
 import com.xj.self.view.lmj623565791.MetroImageView;
 
 public class MetroImageActivity extends Activity {

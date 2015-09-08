@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.PopupWindow;
 
-import com.haha.self.R;
+import com.xj.self.R;
 
 /**
  * 仿QQ的ListView滑动删除

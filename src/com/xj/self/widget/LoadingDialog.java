@@ -8,7 +8,7 @@ import android.view.KeyEvent;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.haha.self.R;
+import com.xj.self.R;
 
 
 /**

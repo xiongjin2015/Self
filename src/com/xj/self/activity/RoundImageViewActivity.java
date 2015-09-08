@@ -3,7 +3,7 @@ package com.xj.self.activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 
-import com.haha.self.R;
+import com.xj.self.R;
 
 public class RoundImageViewActivity extends ActionBarActivity {
     

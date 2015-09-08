@@ -16,7 +16,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.TextView;
 
-import com.haha.self.R;
+import com.xj.self.R;
 
 /**
  * the first custom view example 自定义view的步骤如下： 1.自定义view的属性； 2.在View的构造方法中获取我们自定义的属性 3.重写onMeasure

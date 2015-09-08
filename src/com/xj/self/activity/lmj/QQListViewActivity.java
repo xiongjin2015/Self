@@ -12,7 +12,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
-import com.haha.self.R;
+import com.xj.self.R;
 import com.xj.self.view.lmj623565791.QQListView;
 import com.xj.self.view.lmj623565791.QQListView.DelButtonClickListener;
 

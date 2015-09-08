@@ -3,7 +3,7 @@ package com.xj.self.activity.lmj;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.haha.self.R;
+import com.xj.self.R;
 
 public class CustomProgressActivity extends Activity {
 
