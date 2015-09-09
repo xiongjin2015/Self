@@ -63,5 +63,22 @@
         <attr name="type"/>
         <attr name="src"/>
     </declare-styleable>
+    
+    <!-- 手势锁的自定义属性，通过在xml文件中设置这些属性，改变外观，最多尝试次数以及数量等 -->
+    <attr name="color_no_finger_inner_circle" format="color"/>
+    <attr name="color_no_finger_outer_circle" format="color"/>
+    <attr name="color_finger_on" format="color"/>
+    <attr name="color_finger_up" format="color"/>
+    <attr name="count" format="integer"/>
+    <attr name="tryTimes" format="integer"/>
+    
+    <declare-styleable name="GestureLockVieGroup">
+        <attr name="color_no_finger_inner_circle"/>
+        <attr name="color_no_finger_outer_circle"/>
+        <attr name="color_finger_on"/>
+        <attr name="color_finger_up"/>
+        <attr name="count"/>
+        <attr name="tryTimes"/>
+    </declare-styleable>
 
 </resources>
