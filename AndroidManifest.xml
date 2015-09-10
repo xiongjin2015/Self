@@ -169,6 +169,15 @@
                 <category android:name="XJ.Lmj" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.xj.self.activity.lmj.viewgroup.CustomImgContainerActivity"
+            android:label="Custom Image View Group Test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Lmj" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
