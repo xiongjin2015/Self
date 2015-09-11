@@ -15,10 +15,10 @@ public class CustomImgContainerActivity extends Activity {
         setContentView(R.layout.activity_custom_image_view_group);
         
         //ViewGroup的宽和高设置为wrap_content
-        //setContentView(R.layout.activity_custom_image_view_group);
+        //setContentView(R.layout.activity_custom_image_view_group1);
         
         //ViewGroup的宽和高设置为match_parent
-        //setContentView(R.layout.activity_custom_image_view_group);
+        //setContentView(R.layout.activity_custom_image_view_group2);
     }
 
 }

@@ -178,6 +178,15 @@
                 <category android:name="XJ.Lmj" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.xj.self.activity.lmj.viewgroup.FlowLayoutActivity"
+            android:label="Flow Layout View Group Test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Lmj" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
