@@ -23,7 +23,10 @@ import com.xj.self.entity.ChatMessage;
 import com.xj.self.entity.ChatMessage.Type;
 import com.xj.self.utils.HttpUtils;
 
-
+/**
+ * 官网（http://www.tuling123.com/openapi/
+ *
+ */
 public class TuringRobotChatActivity extends Activity {
     
     /**展示消息的listview*/

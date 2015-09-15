@@ -9,6 +9,7 @@
         android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -199,6 +200,24 @@
         <activity
             android:name="com.xj.self.activity.lmj.BinderCalcPlusActivity"
             android:label="Binder SAMPLE Test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Lmj" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xj.self.activity.lmj.TuringRobotChatActivity"
+            android:label="Turing Robot Chat Test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Lmj" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xj.self.activity.lmj.Game2048Activity"
+            android:label="Game 2048 Test" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
