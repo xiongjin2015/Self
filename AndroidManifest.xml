@@ -10,6 +10,7 @@
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" /> 
 
     <application
         android:allowBackup="true"
@@ -110,6 +111,15 @@
         <activity
             android:name="com.xj.self.activity.LmjMainActivity"
             android:label="Lmj Main View Test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.Self" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xj.self.activity.GLMainActivity"
+            android:label="GL Main View Test" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -224,6 +234,18 @@
                 <category android:name="XJ.Lmj" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name="com.xj.self.activity.gl.FloatWindow360Activity"
+            android:label="360 Float Window Demo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="XJ.GL" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.xj.self.service.FloatWindowService" />
     </application>
 
 </manifest>
